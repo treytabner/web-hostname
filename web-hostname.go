@@ -11,5 +11,5 @@ func main() {
 		hostname, _ := os.Hostname()
 		io.WriteString(w, hostname)
 	})
-	http.ListenAndServe(":9000", nil)
+	http.ListenAndServe(":80", nil)
 }
